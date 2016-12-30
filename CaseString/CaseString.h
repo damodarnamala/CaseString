@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "CSString.h"
 //! Project version number for CaseString.
 FOUNDATION_EXPORT double CaseStringVersionNumber;
 

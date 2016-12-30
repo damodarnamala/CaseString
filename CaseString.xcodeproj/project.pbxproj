@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		2C43D6F91E163BA300C65CCF /* CaseString.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C43D6F71E163BA300C65CCF /* CaseString.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C43D7111E163E7900C65CCF /* CSString.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C43D70F1E163E7900C65CCF /* CSString.h */; };
+		2C43D7121E163E7900C65CCF /* CSString.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C43D7101E163E7900C65CCF /* CSString.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2C43D6F41E163BA300C65CCF /* CaseString.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CaseString.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C43D6F71E163BA300C65CCF /* CaseString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CaseString.h; sourceTree = "<group>"; };
 		2C43D6F81E163BA300C65CCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C43D70F1E163E7900C65CCF /* CSString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSString.h; sourceTree = "<group>"; };
+		2C43D7101E163E7900C65CCF /* CSString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSString.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +52,8 @@
 			children = (
 				2C43D6F71E163BA300C65CCF /* CaseString.h */,
 				2C43D6F81E163BA300C65CCF /* Info.plist */,
+				2C43D70F1E163E7900C65CCF /* CSString.h */,
+				2C43D7101E163E7900C65CCF /* CSString.m */,
 			);
 			path = CaseString;
 			sourceTree = "<group>";
@@ -60,6 +66,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C43D6F91E163BA300C65CCF /* CaseString.h in Headers */,
+				2C43D7111E163E7900C65CCF /* CSString.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -131,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C43D7121E163E7900C65CCF /* CSString.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
