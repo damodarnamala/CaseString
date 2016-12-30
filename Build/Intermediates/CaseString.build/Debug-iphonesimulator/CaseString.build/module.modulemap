@@ -1,0 +1,6 @@
+framework module CaseString {
+  umbrella header "CaseString.h"
+
+  export *
+  module * { export * }
+}

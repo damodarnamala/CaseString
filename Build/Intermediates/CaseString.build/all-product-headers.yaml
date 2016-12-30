@@ -1,0 +1,33 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/damodarnamala/Desktop/CaseString/Build/Products/Debug-iphonesimulator/CaseString.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "CaseString-Swift.h",
+          'external-contents': "/Users/damodarnamala/Desktop/CaseString/Build/Products/Debug-iphonesimulator/CaseString.framework/Headers/CaseString-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "CaseString.h",
+          'external-contents': "/Users/damodarnamala/Desktop/CaseString/CaseString/CaseString.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/damodarnamala/Desktop/CaseString/Build/Products/Debug-iphonesimulator/CaseString.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/damodarnamala/Desktop/CaseString/Build/Intermediates/CaseString.build/Debug-iphonesimulator/CaseString.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}
